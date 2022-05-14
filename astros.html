@@ -27,7 +27,10 @@
           <a href="astros.html" style="font-weight: bold">
             <br />&nbsp;&nbsp;Astronauts In Space&nbsp;&nbsp;</a
           >
-          <a href="https://github.com/talkativeDiv" style="font-weight: bold">
+          <a
+            href="https://github.com/talkativeDiv"
+            style="font-weight: bold"
+          >
             <br />&nbsp;&nbsp;Github&nbsp;&nbsp;</a
           >
         </ul>
@@ -49,23 +52,20 @@
         >
       </div>
     </div>
-    <h1 class="bold center">ISS Locator</h1>
-    <iframe
-      id="mapISS"
-      width="100%"
-      height="355px"
-      src="https://api.mapbox.com/styles/v1/talkativediv/cl2xp846t003c14mxg639tkec.html?title=false&access_token=pk.eyJ1IjoidGFsa2F0aXZlZGl2IiwiYSI6ImNsMnhwMjc3ejAxb2wzaW1odHV5b2FzYmkifQ.FIv60aJfQGwZeTMhQvtTpg&amp;zoomwheel=false#9/10.0716/-152.8508"
-      title="Streets"
-      style="border: none"
-    ></iframe>
+		<br />
+    <h1 class="bold center">Astronauts in space</h1>
+    <h1 class="bold center h-1" id="lblAstrosInSpace"></h1>
     <br />
-    <div class="flex justify-center items-center" >
-      <button class="btn btn-3d" onclick="getISSLocation()" >
-        Find THE ISS Location
+    <div class="flex justify-center items-center">
+      <button class="btn btn-3d" onclick="getIntOfAstros()">
+        Get Astronauts In Space
       </button>
     </div>
-
-    <footer class="footer" >
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="footer-col">
@@ -80,7 +80,7 @@
           <div class="footer-col">
             <h4>follow us</h4>
             <div class="social-links">
-              <a href="https://github.com/TalkativeDiv/issLocator">
+              <a href="https://github.com/TalkativeDiv">
                 <i class="fab fa-github"></i
               ></a>
               <a href="https://talkativeblog.hashnode.dev/?preview=true"
